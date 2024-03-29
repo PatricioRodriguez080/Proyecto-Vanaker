@@ -1,0 +1,32 @@
+@media only screen and (max-width: 767px) {
+
+    /* contact */
+
+    .container-contact {
+        flex-direction: column;
+    }
+
+    .container-informaciones {
+        flex-direction: column;
+    }
+
+    .container-direccion {
+        justify-content: center;
+    }
+
+    .container-mail {
+        justify-content: center;
+    }
+
+    .container-telefono {
+        justify-content: center;
+    }
+
+    .container-nombre-y-mail {
+        flex-direction: column;
+    }
+
+    .container-nombre {
+        margin-bottom: 6px;
+    }
+}

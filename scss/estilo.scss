@@ -1,1 +1,7 @@
-@import "./partials/generales"
+@import "./partials/vars";
+@import "./partials/mixins";
+@import "./partials/generales";
+@import "./partials/navbar";
+@import "./partials/contacto";
+@import "./partials/queries-tablet";
+@import "./partials/queries-mobile";
