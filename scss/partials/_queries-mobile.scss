@@ -1,34 +1,63 @@
 @media only screen and (max-width: 767px) {
 
-    // presentacion //
-}
+    // productos //
 
-// contacto //
+    .productos{
+        
+        .grid-container-productos {
+            display: grid;
+            grid-template-areas:
+                "texto1 texto1"
+                "imagen1 imagen1"
+                "texto2 texto2"
+                "imagen2 imagen2";
+        }
+    
+        .container-imagen-general {
+            img {
+                width: 200px;
+                margin: 40px 0px;
+            }
+        }
 
-.container-contact {
-    flex-direction: column;
-}
+        .container-parrafo-general{
+            align-items: center;
+            text-align: center;
+        }
 
-.container-informaciones {
-    flex-direction: column;
-}
+        .parrafo2{
+            text-align: center;
+        }
+    }
 
-.container-direccion {
-    justify-content: center;
-}
 
-.container-mail {
-    justify-content: center;
-}
+    // contacto //
 
-.container-telefono {
-    justify-content: center;
-}
+    .container-contact {
+        flex-direction: column;
+    }
 
-.container-nombre-y-mail {
-    flex-direction: column;
-}
+    .container-informaciones {
+        flex-direction: column;
+    }
 
-.container-nombre {
-    margin-bottom: 6px;
+    .container-direccion {
+        justify-content: center;
+    }
+
+    .container-mail {
+        justify-content: center;
+    }
+
+    .container-telefono {
+        justify-content: center;
+    }
+
+    .container-nombre-y-mail {
+        flex-direction: column;
+    }
+
+    .container-nombre {
+        margin-bottom: 6px;
+    }
 }

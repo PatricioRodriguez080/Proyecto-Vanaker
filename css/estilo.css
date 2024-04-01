@@ -66,6 +66,63 @@
   height: 200px;
 }
 
+.productos {
+  background-color: cadetblue;
+  margin-top: 20px;
+}
+.productos .grid-container-productos {
+  display: grid;
+  grid-template-areas: "header header" "texto1 imagen1" "imagen2 texto2";
+  grid-template-columns: 50% 50%;
+  padding: 0px 60px;
+}
+.productos .container-parrafo-general {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  font-size: 1.1rem;
+}
+.productos .parrafo2 {
+  text-align: end;
+}
+.productos .container-imagen-general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.productos .container-imagen-general img {
+  width: 200px;
+  height: 200px;
+}
+.productos .container-parrafo1 {
+  grid-area: texto1;
+}
+.productos .container-imagen1 {
+  grid-area: imagen1;
+}
+.productos .container-imagen2 {
+  grid-area: imagen2;
+}
+.productos .container-parrafo2 {
+  grid-area: texto2;
+  align-items: end;
+}
+.productos .container-boton-productos .btn-relojeria {
+  align-self: flex-start;
+}
+.productos .container-boton-productos button {
+  min-height: 40px;
+  min-width: 80px;
+  background-color: violet;
+  color: white;
+  border: 0;
+}
+.productos .container-boton-productos button:hover {
+  transition: all 300ms;
+  transform: scale(1.15);
+}
+
 .container-boton button {
   min-height: 40px;
   min-width: 80px;
@@ -188,32 +245,43 @@
     margin-bottom: 40px;
   }
 }
-.container-contact {
-  flex-direction: column;
-}
-
-.container-informaciones {
-  flex-direction: column;
-}
-
-.container-direccion {
-  justify-content: center;
-}
-
-.container-mail {
-  justify-content: center;
-}
-
-.container-telefono {
-  justify-content: center;
-}
-
-.container-nombre-y-mail {
-  flex-direction: column;
-}
-
-.container-nombre {
-  margin-bottom: 6px;
+@media only screen and (max-width: 767px) {
+  .productos .grid-container-productos {
+    display: grid;
+    grid-template-areas: "texto1 texto1" "imagen1 imagen1" "texto2 texto2" "imagen2 imagen2";
+  }
+  .productos .container-imagen-general img {
+    width: 200px;
+    margin: 40px 0px;
+  }
+  .productos .container-parrafo-general {
+    align-items: center;
+    text-align: center;
+  }
+  .productos .parrafo2 {
+    text-align: center;
+  }
+  .container-contact {
+    flex-direction: column;
+  }
+  .container-informaciones {
+    flex-direction: column;
+  }
+  .container-direccion {
+    justify-content: center;
+  }
+  .container-mail {
+    justify-content: center;
+  }
+  .container-telefono {
+    justify-content: center;
+  }
+  .container-nombre-y-mail {
+    flex-direction: column;
+  }
+  .container-nombre {
+    margin-bottom: 6px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
