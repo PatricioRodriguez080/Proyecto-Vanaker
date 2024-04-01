@@ -31,18 +31,35 @@
 }
 
 .nombre-y-eslogan {
-  background-image: url(../media/borrarEsto.jpg);
   position: relative;
   height: 60vh;
   display: flex;
   flex-direction: column;
+}
+.nombre-y-eslogan .video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.nombre-y-eslogan .video-container video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
 }
 .nombre-y-eslogan img {
   height: 60vh;
   width: 100%;
 }
 .nombre-y-eslogan .contenido {
-  color: black;
+  color: white;
   font-size: 20px;
   display: flex;
   justify-content: center;
