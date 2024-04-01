@@ -2,20 +2,25 @@
     background-color: white;
     border-bottom: 1px solid black;
 
-    .navbar-brand{
-        &:hover{
-            @include boton-agrandamiento();
+    .container-logo-y-nombre{
+        display: flex;
+
+        .container-logo{
+            &:hover{
+                @include boton-agrandamiento()
+            }
+        }
+
+        .container-nombre{
+            display: flex;
+            align-items: center;
+            h2{
+                margin: 0;
+            }
         }
     }
 
-    .nav-item{
-        font-size: 19px;
-        margin-left: 8px;
-        a{
-            color: black;
-            &:hover{
-                color: white;
-            }
-        }
+    .navbar-collapse{
+        flex-grow: 0;
     }
 }
