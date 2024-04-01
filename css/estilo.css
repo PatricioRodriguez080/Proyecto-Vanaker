@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 .navbar {
   background-color: white;
   border-bottom: 1px solid black;
@@ -24,6 +28,42 @@
 }
 .navbar .navbar-collapse {
   flex-grow: 0;
+}
+
+.nombre-y-eslogan {
+  background-image: url(../media/borrarEsto.jpg);
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.nombre-y-eslogan img {
+  height: 60vh;
+  width: 100%;
+}
+.nombre-y-eslogan .contenido {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.presentacion {
+  margin-top: 20px;
+}
+.presentacion .col-presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.presentacion img {
+  width: 200px;
+  height: 200px;
 }
 
 .container-boton button {
@@ -148,29 +188,32 @@
     margin-bottom: 40px;
   }
 }
-@media only screen and (max-width: 767px) {
-  /* contact */
-  .container-contact {
-    flex-direction: column;
-  }
-  .container-informaciones {
-    flex-direction: column;
-  }
-  .container-direccion {
-    justify-content: center;
-  }
-  .container-mail {
-    justify-content: center;
-  }
-  .container-telefono {
-    justify-content: center;
-  }
-  .container-nombre-y-mail {
-    flex-direction: column;
-  }
-  .container-nombre {
-    margin-bottom: 6px;
-  }
+.container-contact {
+  flex-direction: column;
+}
+
+.container-informaciones {
+  flex-direction: column;
+}
+
+.container-direccion {
+  justify-content: center;
+}
+
+.container-mail {
+  justify-content: center;
+}
+
+.container-telefono {
+  justify-content: center;
+}
+
+.container-nombre-y-mail {
+  flex-direction: column;
+}
+
+.container-nombre {
+  margin-bottom: 6px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

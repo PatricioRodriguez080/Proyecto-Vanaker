@@ -1,0 +1,23 @@
+.nombre-y-eslogan{
+    background-image: url(../media/borrarEsto.jpg);
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+    img{
+        height: 60vh;
+        width: 100%;
+    }
+
+    .contenido{
+        color: black;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+    }
+}
