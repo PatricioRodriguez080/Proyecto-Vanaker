@@ -76,13 +76,13 @@
   grid-template-columns: 50% 50%;
   padding: 0px 60px;
 }
-.productos .container-parrafo-general {
-  display: flex;
-  justify-content: center;
+.productos .container-parrafo1 {
   margin: 40px;
   font-size: 1.1rem;
 }
-.productos .parrafo2 {
+.productos .container-parrafo2 {
+  margin: 40px;
+  font-size: 1.1rem;
   text-align: end;
 }
 .productos .container-imagen-general {
@@ -106,7 +106,6 @@
 }
 .productos .container-parrafo2 {
   grid-area: texto2;
-  align-items: end;
 }
 .productos .container-boton-productos .btn-relojeria {
   align-self: flex-start;

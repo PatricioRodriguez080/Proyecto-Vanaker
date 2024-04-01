@@ -11,15 +11,15 @@
         grid-template-columns: 50% 50%;
         padding: 0px 60px;
     }
-    
-    .container-parrafo-general {
-        display: flex;
-        justify-content: center;
+
+    .container-parrafo1{
         margin: 40px;
         font-size: 1.1rem;
     }
 
-    .parrafo2{
+    .container-parrafo2{
+        margin: 40px;
+        font-size: 1.1rem;
         text-align: end;
     }
     
@@ -49,7 +49,6 @@
     
     .container-parrafo2 {
         grid-area: texto2;
-        align-items: end;
     }
     
     .container-boton-productos{
