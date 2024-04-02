@@ -1,6 +1,6 @@
 .navbar{
-    background-color: white;
-    border-bottom: 1px solid black;
+    background-color: #545552;
+    color: white;
 
     .container-logo-y-nombre{
         display: flex;
@@ -18,6 +18,17 @@
                 margin: 0;
             }
         }
+    }
+
+    .navbar-nav {
+        a{
+            font-size: 1.1rem;
+            color: white; 
+            &:hover{
+                @include boton-agrandamiento();
+            }
+        }
+        
     }
 
     .navbar-collapse{

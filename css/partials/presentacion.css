@@ -1,15 +1,20 @@
+.gradient {
+  background: rgb(84, 85, 82);
+  background: linear-gradient(180deg, rgb(84, 85, 82) 0%, rgb(113, 114, 111) 25%, rgb(136, 137, 134) 50%, rgb(167, 168, 165) 75%, rgb(184, 185, 182) 100%);
+}
+
 .presentacion {
-  margin-top: 20px;
+  color: white;
 }
 .presentacion .col-presentacion {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 60px 100px;
 }
 .presentacion img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 /*# sourceMappingURL=presentacion.css.map */

@@ -1,6 +1,6 @@
 .productos{
-    background-color: cadetblue;
-    margin-top: 20px;
+    margin-top: 110px;
+    color: white;
 
     .grid-container-productos {
         display: grid;
@@ -30,8 +30,8 @@
         margin: 40px;
     
         img {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
         }
     }
     
@@ -60,7 +60,7 @@
         button{
             min-height: 40px;
             min-width: 80px;
-            background-color: violet;
+            background-color: #545552;
             color: white;
             border: 0;
             &:hover{

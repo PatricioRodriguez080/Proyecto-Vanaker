@@ -4,20 +4,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #545552;
+}
+
 .row {
   --bs-gutter-x: 0;
 }
 
 .navbar {
-  background-color: white;
-  border-bottom: 1px solid black;
+  background-color: #545552;
+  color: white;
 }
 .navbar .container-logo-y-nombre {
   display: flex;
 }
 .navbar .container-logo-y-nombre .container-logo:hover {
   transition: all 300ms;
-  transform: scale(1.15);
+  transform: scale(1.05);
+  color: black;
 }
 .navbar .container-logo-y-nombre .container-nombre {
   display: flex;
@@ -25,6 +30,15 @@
 }
 .navbar .container-logo-y-nombre .container-nombre h2 {
   margin: 0;
+}
+.navbar .navbar-nav a {
+  font-size: 1.1rem;
+  color: white;
+}
+.navbar .navbar-nav a:hover {
+  transition: all 300ms;
+  transform: scale(1.05);
+  color: black;
 }
 .navbar .navbar-collapse {
   flex-grow: 0;
@@ -51,7 +65,7 @@
   left: 50%;
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 99%;
   transform: translate(-50%, -50%);
 }
 .nombre-y-eslogan img {
@@ -68,24 +82,46 @@
   flex-direction: column;
   margin: auto;
 }
+.nombre-y-eslogan .custom-shape-divider-bottom-1712014893 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.nombre-y-eslogan .custom-shape-divider-bottom-1712014893 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 84px;
+}
+.nombre-y-eslogan .custom-shape-divider-bottom-1712014893 .shape-fill {
+  fill: #545552;
+}
+
+.gradient {
+  background: rgb(84, 85, 82);
+  background: linear-gradient(180deg, rgb(84, 85, 82) 0%, rgb(113, 114, 111) 25%, rgb(136, 137, 134) 50%, rgb(167, 168, 165) 75%, rgb(184, 185, 182) 100%);
+}
 
 .presentacion {
-  margin-top: 20px;
+  color: white;
 }
 .presentacion .col-presentacion {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 60px 100px;
 }
 .presentacion img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 .productos {
-  background-color: cadetblue;
-  margin-top: 20px;
+  margin-top: 110px;
+  color: white;
 }
 .productos .grid-container-productos {
   display: grid;
@@ -109,8 +145,8 @@
   margin: 40px;
 }
 .productos .container-imagen-general img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 .productos .container-parrafo1 {
   grid-area: texto1;
@@ -130,13 +166,14 @@
 .productos .container-boton-productos button {
   min-height: 40px;
   min-width: 80px;
-  background-color: violet;
+  background-color: #545552;
   color: white;
   border: 0;
 }
 .productos .container-boton-productos button:hover {
   transition: all 300ms;
-  transform: scale(1.15);
+  transform: scale(1.05);
+  color: black;
 }
 
 .container-boton button {
@@ -148,7 +185,8 @@
 }
 .container-boton button:hover {
   transition: all 300ms;
-  transform: scale(1.15);
+  transform: scale(1.05);
+  color: black;
 }
 
 .container-informaciones {

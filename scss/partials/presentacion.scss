@@ -1,17 +1,22 @@
+.gradient{
+    background: rgb(84,85,82);
+    background: linear-gradient(180deg, rgba(84,85,82,1) 0%, rgba(113,114,111,1) 25%, rgba(136,137,134,1) 50%, rgba(167,168,165,1) 75%, rgba(184,185,182,1) 100%);
+}
+
 .presentacion {
 
-    margin-top: 20px;
+    color: white;
 
-    .col-presentacion{
+    .col-presentacion {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 40px;
+        padding: 60px 100px;
     }
 
     img {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 280px;
     }
 
 }

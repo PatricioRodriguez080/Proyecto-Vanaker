@@ -1,10 +1,10 @@
-.nombre-y-eslogan{
+.nombre-y-eslogan {
     position: relative;
     height: 60vh;
     display: flex;
     flex-direction: column;
 
-    .video-container{
+    .video-container {
         position: absolute;
         top: 0;
         left: 0;
@@ -12,24 +12,24 @@
         width: 100%;
         height: 100%;
         overflow: hidden;
-    
-        video{
+
+        video {
             position: relative;
             top: 50%;
             left: 50%;
             object-fit: cover;
             width: 100%;
-            height: 100%;
-            transform: translate(-50%,-50%);
+            height: 99%;
+            transform: translate(-50%, -50%);
         }
     }
-    
-    img{
+
+    img {
         height: 60vh;
         width: 100%;
     }
 
-    .contenido{
+    .contenido {
         color: white;
         font-size: 20px;
         display: flex;
@@ -38,5 +38,27 @@
         text-align: center;
         flex-direction: column;
         margin: auto;
+    }
+
+    // wave //
+
+    .custom-shape-divider-bottom-1712014893 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1712014893 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 84px;
+    }
+    
+    .custom-shape-divider-bottom-1712014893 .shape-fill {
+        fill: #545552;
     }
 }
