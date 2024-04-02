@@ -218,6 +218,10 @@ p {
   background: linear-gradient(180deg, rgb(42, 42, 40) 0%, rgb(54, 54, 51) 25%, rgb(69, 69, 66) 50%, rgb(89, 89, 85) 75%, rgb(104, 104, 100) 100%);
 }
 
+.destacados {
+  height: 100vh;
+  padding-top: 70px;
+}
 .destacados h2 {
   color: white;
 }
@@ -273,17 +277,25 @@ p {
 
 .card_title {
   font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 .card_name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   color: #94764C;
 }
 
 .card_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   text-align: center;
   font-size: 1.1rem;
   margin: 1em 0;
-  font-weight: 400;
 }
 
 .card_btn {
@@ -298,6 +310,42 @@ p {
   transition: all 300ms;
   transform: scale(1.05);
   color: #D4C6AD;
+}
+
+.equipo h2 {
+  color: white;
+}
+.equipo .card-equipo {
+  width: 500px;
+  height: 350px;
+}
+.equipo .card-equipo .card-body {
+  text-align: center;
+}
+.equipo .card-equipo .card-body .card-title {
+  color: #94764C;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.equipo .card-equipo .card-body .card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.equipo .col-equipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-card {
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  border: 5px solid #714B32;
+  padding: 3px;
 }
 
 .container-boton button {
@@ -372,6 +420,9 @@ p {
 }
 
 @media only screen and (max-width: 1024px) {
+  .equipo .col-equipo {
+    margin-bottom: 20px;
+  }
   /* contact */
   .container-contact {
     flex-direction: column;
