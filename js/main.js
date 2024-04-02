@@ -1,14 +1,16 @@
-var swiper = new Swiper('.card-slider', {
-    spaceBetween: 30,
-    effect: 'fade',
-    loop: true,
-    mousewheel: {
-        invert: false,
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
     },
     pagination: {
-        el: '.card-slider__pagination',
-        clickable: true,
-    }
+        el: ".swiper-pagination",
+    },
 });
-
-

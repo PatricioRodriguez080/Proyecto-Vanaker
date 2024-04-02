@@ -1,0 +1,89 @@
+.gradient2{
+    background: rgb(42, 42, 40);
+    background: linear-gradient(180deg, rgba(42, 42, 40, 1) 0%, rgba(54, 54, 51, 1) 25%, rgba(69, 69, 66, 1) 50%, rgba(89, 89, 85, 1) 75%, rgba(104, 104, 100, 1) 100%);
+}
+
+.destacados {
+
+    h2{
+        color: white;
+    }
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 20em;
+    height: 90%;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+    filter: blur(3px);
+}
+
+.card_image {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 3px;
+    margin-bottom: 2em;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_title {
+    font-size: 1.5rem;
+}
+
+.card_name {
+    color: blueviolet;
+}
+
+.card_text {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em 0;
+    font-weight: 400;
+}
+
+.card_btn {
+
+    min-height: 40px;
+    min-width: 80px;
+    background-color: #545552;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+    &:hover {
+        @include boton-agrandamiento();
+    }
+}
