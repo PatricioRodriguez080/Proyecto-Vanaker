@@ -323,13 +323,15 @@ p {
   text-align: center;
 }
 .equipo .card-equipo .card-body .card-title {
-  color: #94764C;
+  color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-style: italic;
   font-size: 1.5rem;
 }
 .equipo .card-equipo .card-body .card-text {
+  color: #94764C;
+  font-size: 1.3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -341,8 +343,8 @@ p {
 }
 
 .img-card {
-  width: 11em;
-  height: 11em;
+  width: 12em;
+  height: 12em;
   border-radius: 50%;
   border: 5px solid #714B32;
   padding: 3px;
