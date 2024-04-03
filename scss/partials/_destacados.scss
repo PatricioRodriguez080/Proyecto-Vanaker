@@ -11,6 +11,10 @@
     h2{
         color: white;
     }
+
+    .swiper-slide:not(.swiper-slide-active) {
+        filter: blur(3px);
+    }
 }
 
 .swiper {
@@ -35,10 +39,6 @@
     align-items: center;
     flex-direction: column;
     margin: 0 2em;
-}
-
-.swiper-slide:not(.swiper-slide-active) {
-    filter: blur(3px);
 }
 
 .card_image {

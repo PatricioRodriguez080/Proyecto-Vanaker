@@ -225,6 +225,9 @@ p {
 .destacados h2 {
   color: white;
 }
+.destacados .swiper-slide:not(.swiper-slide-active) {
+  filter: blur(3px);
+}
 
 .swiper {
   width: 100%;
@@ -248,10 +251,6 @@ p {
   align-items: center;
   flex-direction: column;
   margin: 0 2em;
-}
-
-.swiper-slide:not(.swiper-slide-active) {
-  filter: blur(3px);
 }
 
 .card_image {
@@ -348,6 +347,93 @@ p {
   border-radius: 50%;
   border: 5px solid #714B32;
   padding: 3px;
+}
+
+.clientes {
+  margin-top: 180px;
+}
+.clientes .title {
+  color: white;
+}
+.clientes .swiper-wrapper {
+  height: 30em;
+}
+
+.container-clientes {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header .title {
+  font-size: 35px;
+}
+
+.testimonials-slider {
+  height: 430px;
+}
+
+.testimonials {
+  padding: 100px 0;
+}
+
+.testimonials-item {
+  background-color: #D4C6AD;
+  max-height: 300px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.testimonials-item .info {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials-item img {
+  border: 5px solid #714B32;
+  padding: 1px;
+  min-width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.testimonials-item .name {
+  font-size: 24px;
+}
+
+.testimonials-item .job {
+  text-transform: capitalize;
+  color: #94764C;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.testimonials-item p {
+  margin-top: 20px;
+  color: hsl(0, 0%, 40%);
+}
+
+.testimonials-item .rating {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #714B32;
+}
+
+.swiper-pagination {
+  position: relative;
+  bottom: auto;
+}
+
+.swiper-pagination-bullet {
+  height: 12px;
+  width: 12px;
+  background-color: white;
 }
 
 .container-boton button {

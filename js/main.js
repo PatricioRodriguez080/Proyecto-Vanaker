@@ -14,3 +14,22 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
     },
 });
+
+const swiperr = new Swiper('.js-testimonials-slider', {
+    grabCursor: true,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.js-testimonials-pagination',
+        clickable: true
+    },
+    breakpoints: {
+        767: {
+            slidesPerView: 2
+        }
+    }
+});
