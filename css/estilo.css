@@ -436,6 +436,11 @@ p {
   background-color: white;
 }
 
+.contact {
+  background-image: url(../media/fondo-contacto.jpg);
+  background-size: cover;
+}
+
 .container-boton button {
   min-height: 40px;
   min-width: 80px;
