@@ -456,14 +456,13 @@ p {
 
 .container-informaciones {
   margin-bottom: 20px;
-  color: white;
 }
 
 .container-direccion {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  color: black;
+  color: white;
 }
 .container-direccion p {
   margin: 0;
@@ -476,7 +475,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  color: black;
+  color: white;
 }
 .container-mail p {
   margin: 0;
@@ -489,7 +488,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  color: black;
+  color: white;
 }
 .container-telefono p {
   margin: 0;

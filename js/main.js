@@ -1,4 +1,6 @@
-var swiper = new Swiper(".mySwiper", {
+// swiper destacados //
+
+const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -14,6 +16,8 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
     },
 });
+
+// Swiper clientes //
 
 const swiperr = new Swiper('.js-testimonials-slider', {
     grabCursor: true,
