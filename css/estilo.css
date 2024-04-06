@@ -216,6 +216,7 @@ p {
 .gradient2 {
   background: rgb(42, 42, 40);
   background: linear-gradient(180deg, rgb(42, 42, 40) 0%, rgb(54, 54, 51) 25%, rgb(69, 69, 66) 50%, rgb(89, 89, 85) 75%, rgb(104, 104, 100) 100%);
+  padding-bottom: 80px;
 }
 
 .destacados {
@@ -436,15 +437,37 @@ p {
   background-color: white;
 }
 
+.custom-shape-divider-top-1712369854 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1712369854 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 120px;
+}
+
+.custom-shape-divider-top-1712369854 .shape-fill {
+  fill: #686864;
+}
+
 .contact {
   background-image: url(../media/fondo-contacto.jpg);
   background-size: cover;
+}
+.contact .titulo-contactanos {
+  color: white;
 }
 
 .container-boton button {
   min-height: 40px;
   min-width: 80px;
-  background-color: red;
+  background-color: #545552;
   color: white;
   border: 0;
 }
@@ -471,16 +494,16 @@ p {
   margin-right: 10px;
 }
 
-.container-mail {
+.container-direccion2 {
   justify-content: center;
   align-items: center;
   margin: 5px;
   color: white;
 }
-.container-mail p {
+.container-direccion2 p {
   margin: 0;
 }
-.container-mail i {
+.container-direccion2 i {
   margin-right: 10px;
 }
 

@@ -1,13 +1,36 @@
+.custom-shape-divider-top-1712369854 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1712369854 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1712369854 .shape-fill {
+    fill: #686864;
+}
+
 .contact{
     background-image: url(../media/fondo-contacto.jpg);
     background-size: cover;
+
+    .titulo-contactanos{
+        color: white;
+    }
 }
 
 .container-boton{
     button{
         min-height: 40px;
         min-width: 80px;
-        background-color: red;
+        background-color: #545552;
         color: white;
         border: 0;
         &:hover{
@@ -32,7 +55,7 @@
         margin-right: 10px;
     }
 }
-.container-mail{
+.container-direccion2{
     justify-content: center;
     align-items: center;
     margin: 5px;
