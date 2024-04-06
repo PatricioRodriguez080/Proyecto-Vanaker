@@ -459,6 +459,7 @@ p {
 .contact {
   background-image: url(../media/fondo-contacto.jpg);
   background-size: cover;
+  padding-bottom: 35px;
 }
 .contact .titulo-contactanos {
   color: white;
@@ -532,6 +533,23 @@ p {
 .container-mail-texto {
   align-items: center;
   margin: 5px 0px;
+}
+
+footer {
+  position: absolute;
+  background-color: #545552;
+  color: white;
+}
+
+.col-redes a {
+  color: white;
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 1.5rem;
+}
+.col-redes a:hover {
+  transition: all 300ms;
+  color: red;
 }
 
 @media only screen and (max-width: 1024px) {
