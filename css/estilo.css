@@ -540,18 +540,75 @@ footer {
   background-color: #545552;
   color: white;
 }
-
-.col-redes a {
+footer .container-mail-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container-mail-footer p {
+  margin: 0 0 0 5px;
+}
+footer .col-redes a {
   color: white;
   text-decoration: none;
   margin-right: 8px;
   font-size: 1.5rem;
 }
-.col-redes a:hover {
+footer .col-redes a:hover {
   transition: all 300ms;
-  color: red;
+  transform: scale(1.05);
+  color: black;
+}
+footer .autor a {
+  text-decoration: none;
+  color: white;
+}
+footer .autor a:hover {
+  transition: all 300ms;
+  transform: scale(1.05);
+  color: black;
 }
 
+.wpp-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #545552;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 30px;
+  z-index: -1;
+}
+.wpp-btn:hover {
+  transition: all 300ms;
+  background-color: white;
+  color: black;
+}
+
+.show {
+  z-index: 100;
+  animation: popup 0.3s ease-in-out;
+}
+
+@keyframes popup {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  50% {
+    width: 25px;
+    height: 25px;
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .equipo .col-equipo {
     margin-bottom: 20px;

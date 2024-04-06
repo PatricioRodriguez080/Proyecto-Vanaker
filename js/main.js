@@ -37,3 +37,13 @@ const swiperr = new Swiper('.js-testimonials-slider', {
         }
     }
 });
+
+// Boton flotante wpp //
+
+window.onscroll = function(){
+    if (document.documentElement.scrollTop > 180) {
+        document.querySelector('.wpp-btn').classList.add('show');
+    }else{
+        document.querySelector('.wpp-btn').classList.remove('show');
+    }
+}
