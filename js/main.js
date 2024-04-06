@@ -42,8 +42,8 @@ const swiperr = new Swiper('.js-testimonials-slider', {
 
 window.onscroll = function(){
     if (document.documentElement.scrollTop > 180) {
-        document.querySelector('.wpp-btn').classList.add('show');
+        document.querySelector('.wpp-btn').classList.add('aparecer');
     }else{
-        document.querySelector('.wpp-btn').classList.remove('show');
+        document.querySelector('.wpp-btn').classList.remove('aparecer');
     }
 }
