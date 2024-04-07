@@ -1,17 +1,33 @@
-.equipo{
+.equipo {
 
-    h2{
+    h2 {
         color: white;
     }
 
-    .card-equipo{
+    .card-equipo {
         width: 500px;
         height: 350px;
+        background-color: #D4C6AD;
+        border-radius: 2em;
+        box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+        padding: 2em 1em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 2em;
 
-        .card-body{
+        .img-card {
+            width: 12em;
+            height: 12em;
+            border-radius: 50%;
+            border: 5px solid #714B32;
+            padding: 3px;
+        }
+
+        .card-body {
             text-align: center;
 
-            .card-title{
+            .card-title {
                 color: black;
                 font-family: "Montserrat", sans-serif;
                 font-weight: 800;
@@ -19,7 +35,7 @@
                 font-size: 1.5rem;
             }
 
-            .card-text{
+            .card-text {
                 color: #94764C;
                 font-size: 1.3rem;
                 font-family: "Poppins", sans-serif;
@@ -29,17 +45,9 @@
         }
     }
 
-    .col-equipo{
+    .col-equipo {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-}
-
-.img-card{
-    width: 12em;
-    height: 12em;
-    border-radius: 50%;
-    border: 5px solid #714B32;
-    padding: 3px;
 }

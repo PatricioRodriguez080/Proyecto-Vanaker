@@ -1,8 +1,8 @@
-.productos{
+.servicios {
     margin-top: 110px;
     color: white;
 
-    .grid-container-productos {
+    .grid-container-servicios {
         display: grid;
         grid-template-areas:
             "header header"
@@ -12,82 +12,83 @@
         padding: 0px 60px;
     }
 
-    .container-parrafo1{
+    .container-parrafo1 {
         margin: 40px;
         font-size: 1.1rem;
     }
 
-    .container-parrafo2{
+    .container-parrafo2 {
         margin: 40px;
         font-size: 1.1rem;
         text-align: end;
     }
-    
+
     .container-imagen-general {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 40px;
-    
+
         img {
             width: 250px;
             height: 250px;
         }
     }
-    
+
     .container-parrafo1 {
         grid-area: texto1;
     }
-    
+
     .container-imagen1 {
         grid-area: imagen1;
     }
-    
+
     .container-imagen2 {
         grid-area: imagen2;
     }
-    
+
     .container-parrafo2 {
         grid-area: texto2;
     }
-    
-    .container-boton-productos{
 
-        .btn-relojeria{
+    .container-boton-servicios {
+
+        .btn-relojeria {
             align-self: flex-start;
         }
-        
-        button{
+
+        button {
             min-height: 40px;
             min-width: 80px;
             background-color: #545552;
             color: white;
             border: 0;
-            &:hover{
+
+            &:hover {
                 @include boton-agrandamiento();
             }
         }
     }
-}
 
-// wave //
+    // wave //
 
-.custom-shape-divider-bottom-1712075548 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
+    .custom-shape-divider-bottom-1712075548 {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
 
-.custom-shape-divider-bottom-1712075548 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 64px;
-}
+    .custom-shape-divider-bottom-1712075548 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 64px;
+    }
 
-.custom-shape-divider-bottom-1712075548 .shape-fill {
-    fill: #2A2A28;
+    .custom-shape-divider-bottom-1712075548 .shape-fill {
+        fill: #2A2A28;
+    }
 }
