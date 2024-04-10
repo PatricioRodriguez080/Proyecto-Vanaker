@@ -1,0 +1,37 @@
+.main-relojes{
+    
+    background-color: black;
+
+    .container-relojes{
+        padding-top: 40px;
+    }
+
+    .col-relojes{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    
+        .card{
+            border-radius: 20px;
+    
+            img{
+                border-radius: 20px;
+            }
+        }
+    
+        .card-body{
+    
+            h5{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-style: italic;
+            }
+    
+            h6{
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+        }
+    }
+}

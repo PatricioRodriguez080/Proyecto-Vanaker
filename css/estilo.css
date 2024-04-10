@@ -536,6 +536,34 @@ footer .autor a:hover {
   color: black;
 }
 
+.main-relojes {
+  background-color: black;
+}
+.main-relojes .container-relojes {
+  padding-top: 40px;
+}
+.main-relojes .col-relojes {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-relojes .col-relojes .card {
+  border-radius: 20px;
+}
+.main-relojes .col-relojes .card img {
+  border-radius: 20px;
+}
+.main-relojes .col-relojes .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.main-relojes .col-relojes .card-body h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .wpp-btn {
   position: fixed;
   bottom: 40px;
