@@ -22,5 +22,18 @@ const arrayRelojes = [
         nombre: "Reloj Vintage",
         marca: "casio",
         precio: 67.80
+    },
+    {
+        id: "A-100WEF-8A",
+        nombre: "Reloj Vintage",
+        marca: "casio",
+        precio: 67.80
+    },
+    {
+        id: "A-100WEFG-9A",
+        nombre: "Reloj Vintage",
+        marca: "casio",
+        precio: 99.80
     }
+
 ]
