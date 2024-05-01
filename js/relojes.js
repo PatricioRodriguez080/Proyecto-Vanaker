@@ -103,6 +103,18 @@ const arrayMistral = [
         nombre: "Reloj Mistral",
         marca: "mistral",
         precio: 62.44
+    },
+    {
+        id: "SMT-W59M-04",
+        nombre: "Reloj Mistral",
+        marca: "mistral",
+        precio: 62.44
+    },
+    {
+        id: "SMT-TS58-04",
+        nombre: "Reloj Mistral",
+        marca: "mistral",
+        precio: 62.44
     }
 ]
 
