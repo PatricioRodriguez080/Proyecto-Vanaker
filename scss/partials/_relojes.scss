@@ -1,8 +1,8 @@
-.main-relojes{
-    
+.main-relojes {
+
     background-color: black;
 
-    .titulo-marca{
+    .titulo-marca {
         color: white;
         font-family: "Montserrat", sans-serif;
         font-weight: 800;
@@ -10,42 +10,49 @@
         margin-bottom: 30px;
     }
 
-    #container-casio{
+    .subtitulo-marca {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    #container-casio {
         padding-top: 40px;
     }
 
-    #container-mistral{
+    #container-mistral {
         padding-top: 40px;
     }
 
-    #container-prune{
+    #container-prune {
         padding-top: 40px;
     }
 
-    .col-relojes{
+    .col-relojes {
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
-    
-        .card{
+
+        .card {
             border-radius: 20px;
-    
-            img{
+
+            img {
                 height: 358px;
                 width: 286px;
                 border-radius: 20px;
             }
         }
-    
-        .card-body{
-    
-            h5{
+
+        .card-body {
+
+            h5 {
                 font-family: "Montserrat", sans-serif;
                 font-weight: 800;
                 font-style: italic;
             }
-    
-            h6{
+
+            h6 {
                 font-family: "Poppins", sans-serif;
                 font-weight: 300;
                 font-style: normal;

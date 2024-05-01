@@ -1,93 +1,146 @@
 const arrayCasio = [
     {
-        id: "A-100WE-1A",
-        nombre: "Reloj Vintage",
-        marca: "casio",
-        precio: 62.44 
-    },
-    {
-        id: "A-100WE-7B",
+        id: "A-158WA-1D",
         nombre: "Reloj Vintage",
         marca: "casio",
         precio: 62.44
     },
     {
-        id: "A-100WEF-1A",
+        id: "A-159WGEA-1D",
         nombre: "Reloj Vintage",
         marca: "casio",
-        precio: 67.80
+        precio: 62.44
     },
     {
-        id: "A-100WEF-3A",
+        id: "AE-1000W-1A",
         nombre: "Reloj Vintage",
         marca: "casio",
-        precio: 67.80
+        precio: 62.44
     },
     {
-        id: "A-100WEF-8A",
+        id: "AEQ-100W-1A",
         nombre: "Reloj Vintage",
         marca: "casio",
-        precio: 67.80
+        precio: 62.44
     },
     {
-        id: "A-100WEFG-9A",
+        id: "AQ-230A-1D",
         nombre: "Reloj Vintage",
         marca: "casio",
-        precio: 99.80
+        precio: 62.44
+    },
+    {
+        id: "AQ-230A-1D",
+        nombre: "Reloj Vintage",
+        marca: "casio",
+        precio: 62.44
+    },
+    {
+        id: "B-640WB-1A",
+        nombre: "Reloj Vintage",
+        marca: "casio",
+        precio: 62.44
+    },
+    {
+        id: "DB-360-1A",
+        nombre: "Reloj Vintage",
+        marca: "casio",
+        precio: 62.44
+    },
+    {
+        id: "AQ-S810W-8A",
+        nombre: "Reloj Casio",
+        marca: "casio",
+        precio: 62.44
+    },
+    {
+        id: "AW-90H-7B",
+        nombre: "Reloj Casio",
+        marca: "casio",
+        precio: 62.44
+    },
+    {
+        id: "AW-90H-7E",
+        nombre: "Reloj Casio",
+        marca: "casio",
+        precio: 62.44
     }
-
 ]
 
 const arrayMistral = [
     {
-        id: "CHI-2026S-01",
-        nombre: "RELOJ MISTRAL",
+        id: "GDX-DAZ-02",
+        nombre: "Reloj Mistral",
         marca: "mistral",
-        precio: 87.90 
+        precio: 62.44
     },
     {
-        id: "CHI-2026S-02",
-        nombre: "RELOJ MISTRAL",
+        id: "GDG-9792-01",
+        nombre: "Reloj Mistral",
         marca: "mistral",
-        precio: 87.90 
+        precio: 62.44
     },
     {
-        id: "CHT-7263-08",
-        nombre: "RELOJ MISTRAL",
+        id: "SMT-TS68L-01",
+        nombre: "Reloj Mistral",
         marca: "mistral",
-        precio: 78 
+        precio: 62.44
     },
     {
-        id: "CHT-7263-1A",
-        nombre: "RELOJ MISTRAL",
+        id: "SMT-TS58-01",
+        nombre: "Reloj Mistral",
         marca: "mistral",
-        precio: 75.50 
+        precio: 62.44
     },
+    {
+        id: "SMT-TS82-1A",
+        nombre: "Reloj Mistral",
+        marca: "mistral",
+        precio: 62.44
+    },
+    {
+        id: "SMT-TS65PRO-8A",
+        nombre: "Reloj Mistral",
+        marca: "mistral",
+        precio: 62.44
+    }
 ]
 
 const arrayPrune = [
     {
-        id: "PRG-0207-01",
-        nombre: "RELOJ PRUNE",
+        id: "PRG-271-01",
+        nombre: "Reloj Prune",
         marca: "prune",
-        precio: 42.90
+        precio: 62.44
     },
     {
         id: "PRG-1002-01",
-        nombre: "RELOJ PRUNE",
+        nombre: "Reloj Prune",
         marca: "prune",
-        precio: 43.50 
+        precio: 62.44
+    },
+    {
+        id: "PRG-247-06",
+        nombre: "Reloj Prune",
+        marca: "prune",
+        precio: 62.44
+    },
+    {
+        id: "PRG-5065-02",
+        nombre: "Reloj Prune",
+        marca: "prune",
+        precio: 62.44
     },
     {
         id: "PRG-1090-01",
-        nombre: "RELOJ PRUNE",
+        nombre: "Reloj Prune",
         marca: "prune",
-        precio: 43.50 
+        precio: 62.44
     },
     {
-        id: "PRG-247-01",
-        nombre: "RELOJ PRUNE",
+        id: "PRM-5049-01",
+        nombre: "Reloj Prune",
         marca: "prune",
-        precio: 48.90 
-    },
+        precio: 62.44
+    }
 ]
