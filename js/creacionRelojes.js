@@ -41,9 +41,6 @@ function crearTarjetasRelojes(arrayRelojes, contenedor) {
                     <div class="card-body">
                         <h5 class="card-title">${reloj.nombre}</h5>
                         <h6 class="marca">${reloj.marca}</h6>
-                        <div class="container-precio">
-                            <h5 class="card-title">$${reloj.precio}</h5>
-                        </div>
                     </div>
                 </div>
             </div>
