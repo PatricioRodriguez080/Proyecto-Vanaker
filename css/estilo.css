@@ -546,7 +546,9 @@ footer .autor a:hover {
 }
 
 .main-relojes {
-  background-color: black;
+  background-image: url(../media/fondo-relojes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .main-relojes .titulo-marca {
   color: white;
@@ -577,6 +579,7 @@ footer .autor a:hover {
 }
 .main-relojes .col-relojes .card {
   border-radius: 20px;
+  background-color: #D4C6AD;
 }
 .main-relojes .col-relojes .card img {
   height: 358px;
@@ -591,6 +594,7 @@ footer .autor a:hover {
 .main-relojes .col-relojes .card-body h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  color: #94764C;
   font-style: normal;
 }
 

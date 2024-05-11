@@ -1,6 +1,8 @@
 .main-relojes {
 
-    background-color: black;
+    background-image: url(../media/fondo-relojes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .titulo-marca {
         color: white;
@@ -36,6 +38,7 @@
 
         .card {
             border-radius: 20px;
+            background-color: #D4C6AD;
 
             img {
                 height: 358px;
@@ -55,7 +58,9 @@
             h6 {
                 font-family: "Poppins", sans-serif;
                 font-weight: 300;
+                color: #94764C;
                 font-style: normal;
+
             }
         }
     }
