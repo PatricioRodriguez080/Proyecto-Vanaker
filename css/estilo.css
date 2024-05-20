@@ -546,8 +546,14 @@ footer .autor a:hover {
 }
 
 .main-relojes {
+<<<<<<< HEAD
   background-image: url(../media/fondorelojes2.jpg);
   background-size: 170%;
+=======
+  background-image: url(../media/fondo-relojes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+>>>>>>> a2a62a45a45a230afff7cb8c04853119f45f7df0
 }
 .main-relojes .titulo-marca {
   color: white;
@@ -593,6 +599,7 @@ footer .autor a:hover {
 .main-relojes .col-relojes .card-body h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  color: #94764C;
   font-style: normal;
   color: #94764C;
 }
