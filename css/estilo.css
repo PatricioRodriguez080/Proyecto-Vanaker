@@ -546,7 +546,8 @@ footer .autor a:hover {
 }
 
 .main-relojes {
-  background-color: black;
+  background-image: url(../media/fondorelojes2.jpg);
+  background-size: 170%;
 }
 .main-relojes .titulo-marca {
   color: white;
@@ -577,6 +578,7 @@ footer .autor a:hover {
 }
 .main-relojes .col-relojes .card {
   border-radius: 20px;
+  background-color: #D4C6AD;
 }
 .main-relojes .col-relojes .card img {
   height: 358px;
@@ -592,6 +594,7 @@ footer .autor a:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: #94764C;
 }
 
 .wpp-btn {
