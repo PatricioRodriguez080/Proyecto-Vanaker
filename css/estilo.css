@@ -606,6 +606,7 @@ footer .autor a:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-style: italic;
+  margin-bottom: 40px;
 }
 .main-joyas #container-anillos {
   padding-top: 40px;
@@ -614,6 +615,9 @@ footer .autor a:hover {
   padding-top: 40px;
 }
 .main-joyas #container-pulseras {
+  padding-top: 40px;
+}
+.main-joyas #container-aros {
   padding-top: 40px;
 }
 .main-joyas .col-relojes {

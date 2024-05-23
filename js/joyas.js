@@ -67,6 +67,24 @@ const arrayCadenas = [
         nombre: "Cadena pelotitas",
         info: "Ac común 50CM",
         categoria: "cadenas"
+    },
+    {
+        id: "JN7980-9-60",
+        nombre: "Cadena malla gruesa",
+        info: "Ac común 60CM",
+        categoria: "cadenas"
+    },
+    {
+        id: "JN5901-7-1",
+        nombre: "Cadena force fina",
+        info: "Ac común 60CM",
+        categoria: "cadenas"
+    },
+    {
+        id: "JN5262",
+        nombre: "Cadena veneciana",
+        info: "Ac común 60CM",
+        categoria: "cadenas"
     }
 ]
 
@@ -100,5 +118,56 @@ const arrayPulseras = [
         nombre: "Denario mano cristal",
         info: "Ac común",
         categoria: "pulseras"
+    }
+]
+
+const arrayAros = [
+    {
+        id: "JN1012",
+        nombre: "Aro perrito esmaltado",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN10123",
+        nombre: "Aro coronita esmaltada",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN4329-3",
+        nombre: "Aro simple estrella",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN4329-2",
+        nombre: "Aro con strass lila",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN10124",
+        nombre: "Aro corazón esmaltado",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN1012-2",
+        nombre: "Aro arcoíris esmaltado",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN4329-23",
+        nombre: "Aro con strass susanito",
+        info: "Ac quirúrgico",
+        categoria: "aros"
+    },
+    {
+        id: "JN10125",
+        nombre: "Aro margarita",
+        info: "Ac quirúrgico",
+        categoria: "aros"
     }
 ]
