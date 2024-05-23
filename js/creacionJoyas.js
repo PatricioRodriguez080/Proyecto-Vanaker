@@ -1,8 +1,10 @@
 const contenedorTarjetasAnillos = document.getElementById("container-anillos")
 const contenedorTarjetasCadenas = document.getElementById("container-cadenas")
+const contenedorTarjetasPulseras = document.getElementById("container-pulseras")
 
 crearTarjetasJoyas(arrayAnillos, contenedorTarjetasAnillos)
 crearTarjetasJoyas(arrayCadenas, contenedorTarjetasCadenas)
+crearTarjetasJoyas(arrayPulseras, contenedorTarjetasPulseras)
 
 function crearTarjetasJoyas(arrayJoyas, contenedor) {
     arrayJoyas.forEach((joya) => {
