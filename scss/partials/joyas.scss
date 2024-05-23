@@ -1,0 +1,52 @@
+.main-joyas{
+    background-image: url(../media/fondorelojes2.jpg);
+    background-size: 170%;
+
+    .titulo-categoria {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    #container-anillos {
+        padding-top: 40px;
+    }
+
+    #container-cadenas {
+        padding-top: 40px;
+    }
+
+    .col-relojes {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+
+        .card {
+            border-radius: 20px;
+            background-color: #D4C6AD;
+
+            img {
+                height: 358px;
+                width: 286px;
+                border-radius: 20px;
+            }
+        }
+
+        .card-body {
+
+            h5 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-style: italic;
+            }
+
+            h6 {
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                color: #94764C;
+                font-style: normal;
+            }
+        }
+    }
+}

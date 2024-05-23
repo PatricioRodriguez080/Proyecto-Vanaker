@@ -597,6 +597,48 @@ footer .autor a:hover {
   font-style: normal;
 }
 
+.main-joyas {
+  background-image: url(../media/fondorelojes2.jpg);
+  background-size: 170%;
+}
+.main-joyas .titulo-categoria {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.main-joyas #container-anillos {
+  padding-top: 40px;
+}
+.main-joyas #container-cadenas {
+  padding-top: 40px;
+}
+.main-joyas .col-relojes {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-joyas .col-relojes .card {
+  border-radius: 20px;
+  background-color: #D4C6AD;
+}
+.main-joyas .col-relojes .card img {
+  height: 358px;
+  width: 286px;
+  border-radius: 20px;
+}
+.main-joyas .col-relojes .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.main-joyas .col-relojes .card-body h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #94764C;
+  font-style: normal;
+}
+
 .wpp-btn {
   position: fixed;
   bottom: 40px;
