@@ -11,7 +11,7 @@ function crearTarjetasRelojes(arrayRelojes, contenedor) {
         contenedor.innerHTML += `
             <div class="col-sm-12 col-md-6 col-lg-4 col-relojes">
                 <div class="card" style="width: 18rem;">
-                    <img src="../media/relojes/${reloj.marca}/${reloj.id}.jpg" class="card-img-top" alt="reloj ${reloj.marca}">
+                    <img loading="lazy" src="../media/relojes/${reloj.marca}/${reloj.id}.jpg" class="card-img-top" alt="reloj ${reloj.marca}">
                     <div class="card-body">
                         <h5 class="card-title">${reloj.nombre}</h5>
                         <h6 class="marca">${reloj.marca}</h6>
